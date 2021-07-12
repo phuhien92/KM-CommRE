@@ -44,10 +44,10 @@ function App() {
       <h1 className="">Data Analysis for CommRE</h1>
       <Selection agent={selectedAgent} />
       <div className="row">
-        <div className="col-12 col-md-6 col-lg-4">
+        <div className="col-12 col-md-4">
           <SalesTable data={sales} selectedAgent={selectedAgent} onSelect={setSelectedAgent} />
         </div>
-        <div className="col-12 col-md-6 col-lg-8">
+        <div className="col-12 col-md-8">
           <Chart data={chartData} title='Agent Sales Chart' />
         </div>
       </div>
