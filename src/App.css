@@ -1,0 +1,40 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+.white {
+    color: var(--bs-white);
+}
+
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+#google-chart {
+    width: 100%;
+    height: 350px;
+}
+
+@media screen and (min-width: 768px) {
+    #google-chart {
+        height: 400px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    #google-chart {
+        height: 450px;
+    }
+}
+
+.table tr {
+    cursor: pointer;
+}
+
+.table tr.selected {
+    --bs-table-accent-bg: var(--bs-table-hover-bg);
+    color: var(--bs-table-hover-color);
+}
