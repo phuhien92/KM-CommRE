@@ -2,7 +2,9 @@
 
 In the project directory, you can run:
 
-### `yarn start`
+## `yarn start` -> start both backend and frontend
+## `yarn start:api` -> start backend
+## `yarn start:react` -> start frontend
 
 # The project will start with:
   - Frontend at http://localhost:3000
